@@ -15,7 +15,7 @@ import xbmcplugin
 __plugins__ = os.path.join(xbmc.translatePath(Addon().getAddonInfo('path')), 'resources/lib/resolveurl/plugins')
 __temp__ = os.path.join(xbmc.translatePath(Addon().getAddonInfo('path')), 'resources/data/temp')
 
-domains = ('https://watchasian.net', 'https://www3.dramacool.movie')
+domains = ('https://watchasian.net', 'https://dramacool.so/', 'https://www3.dramacool.movie')
 localized_str = Addon().getLocalizedString
 session = Session()
 
